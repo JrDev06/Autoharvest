@@ -1,0 +1,16 @@
+{
+  "name": "minecraft-bot",
+  "version": "1.0.0",
+  "description": "A Minecraft bot for automatic crop harvesting and planting.",
+  "main": "bot.js",
+  "scripts": {
+    "start": "node bot.js"
+  },
+  "author": "Jr Busaco",
+  "license": "MIT",
+  "dependencies": {
+    "mineflayer": "^2.21.0",
+    "mineflayer-pathfinder": "^4.1.2",
+    "minecraft-data": "^2.8.0"
+  }
+}
