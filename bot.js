@@ -3,9 +3,9 @@ const { pathfinder, Movements, goals } = require('mineflayer-pathfinder');
 const { GoalNear } = goals;
 
 const bot = mineflayer.createBot({
-  host: 'localhost', // Minecraft server IP
-  port: 25565,       // Minecraft server port
-  username: 'bot_username' // Bot username (use an offline mode server)
+  host: 'RiseSMPMC.aternos.me', // Minecraft server IP
+  port: 46779,       // Minecraft server port
+  username: 'FarmerBOT' // Bot username (use an offline mode server)
 });
 
 bot.loadPlugin(pathfinder);
